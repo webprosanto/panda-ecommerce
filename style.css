@@ -1,0 +1,16 @@
+.orrage-bg {
+    background-color: #fceae8;
+}
+
+.price {
+    color: #ff136f;
+}
+
+.buy-now {
+    background-image: linear-gradient(to bottom, #ff589B, #ff138f);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
