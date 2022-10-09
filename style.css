@@ -2,7 +2,12 @@
     background-color: #fceae8;
 }
 
-.price {
+.carousel-inner h1 {
+    font-size: 50px;
+}
+
+.price,
+.carousel-inner h2 {
     color: #ff136f;
 }
 
@@ -15,9 +20,7 @@
     cursor: pointer;
 }
 
-.categories,
-.top-slider,
-.product-card {
+.container {
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -52,4 +55,19 @@
 .card {
     border: none;
     box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+
+.card-body h5 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#subscribe {
+    min-height: 300px;
+    border-radius: 10px;
+}
+
+#subscribe h6 {
+    color: gray;
 }
